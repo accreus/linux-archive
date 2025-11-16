@@ -1,0 +1,54 @@
+#### Disable SSH root login
+
+```bash
+sudo vi /etc/ssh/sshd_config
+
+# set PermitRootLogin no
+
+sudo systemctl restart sshd
+sudo cat vi /etc/ssh/sshd_config | grep -i "PermitRootLogin"
+```
+
+#### Granting executable permission to a script
+
+```bash
+sudo chmod +x script.sh
+sudo chmod +r script.sh
+```
+
+#### Installing SELinux
+
+```bash
+
+# checking the os of the system
+cat /etc/os-release
+
+# installing selinux on centos
+sudo yum install selinux-policy selinux-policy-targeted
+
+# to check the status of selinux
+sestatus
+
+# edit the status of selinux
+sudo vi /etc/selinux/config
+# set SELINUX=disabled
+```
+
+#### Create a Cron Job
+```bash
+#installing cronie on centos
+sudo yum install cronie
+
+#check current status of the crond service
+sudo systemctl status crond
+
+#to start the crond service
+sudo systemctl start crond
+
+#check if any cronjobs are running
+sudo crontab -u root -l
+
+#to create a cronjob
+sudo crontab -e
+#paste the cronjob
+```
