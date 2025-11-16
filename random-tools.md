@@ -17,6 +17,8 @@
 | `carbon-now <file> --save-to <dir>` | Renders a file and saves the image to a specified directory.               |
 | `carbon-now --from-clipboard`       | Renders the code currently in your clipboard.                              |
 
+---
+
 # `cool-retro-terminal`
 - **Github Repository** [Github Repo](<https://github.com/Swordfish90/cool-retro-term/wiki/Build-Instructions-(Linux)>)
 
