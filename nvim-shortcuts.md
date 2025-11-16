@@ -66,10 +66,7 @@
 | `y` | Yank (copy) the selected text/line |
 | `d` | Delete the selected text |
 | `c` | Change the selected text and enter Insert mode |
-<<<<<<< HEAD
-=======
 | :e . | Open file explorer |
->>>>>>> 84846b8 (local dir changes)
 
 ***
 

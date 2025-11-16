@@ -18,11 +18,8 @@
 | `carbon-now --from-clipboard`       | Renders the code currently in your clipboard.                              |
 
 # `cool-retro-terminal`
-
 - **Github Repository** [Github Repo](<https://github.com/Swordfish90/cool-retro-term/wiki/Build-Instructions-(Linux)>)
-<<<<<<< HEAD
-=======
 
-# Terminal based markdown viewer
+
+### Terminal based markdown viewer
 [Glow](<https://github.com/charmbracelet/glow>)
->>>>>>> 84846b8 (local dir changes)
