@@ -52,3 +52,11 @@ sudo crontab -u root -l
 sudo crontab -e
 #paste the cronjob
 ```
+```
+```
+
+
+#### Create a static web server in the present working directory 
+```bash
+static-web-server --root ./ --port 8090 --directory-listing true
+```
