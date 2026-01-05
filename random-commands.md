@@ -58,5 +58,5 @@ sudo crontab -e
 
 #### Create a static web server in the present working directory 
 ```bash
-static-web-server --root ./ --port 8090 --directory-listing true
+static-web-server --root ./ --host 0.0.0.0 --port 8090 --directory-listing true --directory-listing-download=targz
 ```
